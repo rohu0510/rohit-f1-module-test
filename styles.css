@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+#home h1 {
+  font-size: 120px;
+  padding-top: 30px;
+}
+
+#home h1 {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#home img {
+  width: 450px;
+  height: 250px;
+  margin-top: 200px;
+}
+
+#home .down-arrow {
+  width: 50px;
+  margin-top: -110px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-fluid {
+  width: 550px;
+  height: 525px;
+}
+
+#about-us-head {
+  padding-left: 50px;
+}
+
+.about-head {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.slider {
+  margin-right: 10px;
+  margin-left: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.hover-box:hover {
+  background-color: black;
+  color: white;
+}
+
+#our-services {
+  font-weight: bold;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 10px;
+}
+
+.contact-us {
+  background-color: black;
+  color: white;
+}
+
+.form-heading h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-input {
+  margin-left: 25%;
+}
+
+.form-input input {
+  text-align: center;
+  width: 700px;
+  height: 45px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn input {
+  background-color: white;
+  color: black;
+  width: 500px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 720px) {
+  .mobile-view-header-btn {
+    margin-right: 10px;
+  }
+
+  .card{
+    width: 500px;
+  }
+
+  #home h1 {
+    font-size: 50px;
+    padding-top: 30px;
+  }
+
+  #header-img {
+    width: 300px;
+    height: 150px;
+    margin-top: -40px;
+    padding-right: 35px;
+  }
+
+  #about-us-img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .mobile-view-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-head {
+    padding-left: 0px !important;
+  }
+
+  .submit-btn {
+    width: 30% !important;
+    margin-left: 100px;
+  }
+
+  .mobile-view-body {
+    padding-left: 15px;
+  }
+
+  .form-heading h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-input {
+    margin-left: 10%;
+  }
+  
+  .form-input input {
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn input {
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-left: -1px;
+  }
+}
