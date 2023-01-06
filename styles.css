@@ -74,6 +74,7 @@ body {
 .hover-box:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 #our-services {
